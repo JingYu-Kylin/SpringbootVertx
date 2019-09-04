@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "server",
+      "type": "com.fire.ams.AppConfiguration",
+      "sourceType": "com.fire.ams.AppConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "server.http-port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.fire.ams.AppConfiguration",
+      "defaultValue": 0
+    },
+    {
+      "name": "server.tcp-port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.fire.ams.AppConfiguration",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}
